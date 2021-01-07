@@ -4,13 +4,8 @@ font-family: 'Lato', Helvetica, Arial, sans-serif;
 font-family: 'Mulish', Helvetica, Arial, sans-serif;
 */
 
-/*.navbar-brand {
-    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-    font-weight: 200; 
-    color: rgb(253, 204, 82);
-}*/
 
-#mainNav .navbar-brand {
+.navbar .navbar-brand {
     color: #fdcc52;
     font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
     font-weight: 200;
