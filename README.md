@@ -1,8 +1,3 @@
-# Project - Sitebuilding
-
-Date: 2021/01/08
-Utolsó módosítás: Jan 7, 2021 10:16 PM
-
 # **Bootstrap 4 sitebuilding project**
 
 **Git-et használjatok, a repo neve: *bs-sitebuild***
