@@ -4,10 +4,93 @@ font-family: 'Lato', Helvetica, Arial, sans-serif;
 font-family: 'Mulish', Helvetica, Arial, sans-serif;
 */
 
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
 
 .navbar .navbar-brand {
-    color: #fdcc52;
-    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-    font-weight: 200;
-    letter-spacing: 1px;
-  } 
+  color: #fdcc52;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 100;
+  letter-spacing: 1px;
+  font-size: 1.25rem;
+}
+
+.navbar .navbar-brand:hover {
+  color: #ffffff;
+}
+
+.navbar .navbar-toggler {
+  color: #000;
+  font-size: .8rem;
+  padding: 8px 10px;
+}
+
+.navbar .navbar-nav .nav-item {
+  color: #000;
+}
+
+.navbar-nav {
+  font-size: 1rem;
+}
+
+header.mainHeader {
+  background: url(../img/bg-pattern.png), linear-gradient(to left, #7b4397, #dc2430);
+  padding-top: 8rem;
+}
+
+.mainHeader {
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  color: #fff;
+}
+
+h1 {
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-size: 2rem;
+}
+
+.btn {
+  /*display: inline-block;
+  vertical-align: middle;*/
+  border-radius: 10rem;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-size: 0.7rem;
+  padding: 1rem 2rem;
+  letter-spacing: 2px;
+  color: #fff;
+  border: 1px solid;
+}
+
+.btn:hover {
+  border: 1px solid #fdcc52;
+  background-color: #fdcc52;
+  transition: all .3s;
+}
+
+.phoneContainer {
+  margin-top: 7rem;
+  max-width: 20rem;
+}
+
+.device {
+  background-image: url("../img/phone.png");
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  width: 100%; height: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat; 
+}
+
+.position {
+  position: relative;
+}

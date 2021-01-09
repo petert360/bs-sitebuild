@@ -1,0 +1,28 @@
+header.mainHeader {
+  background: url(../img/bg-pattern.png), linear-gradient(to left, #7b4397, #dc2430);
+  padding-top: 8rem;
+}
+
+.mainHeader {
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  color: #fff;
+}
+
+.mydiv{
+  border: 10px solid black;
+}
+
+/*
+.btn {
+  border-radius: 10rem;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-size: 0.7rem;
+  padding: 1rem 2rem;
+  letter-spacing: 2px;
+}
+
+.btn-outline {
+  color: #fff;
+  border: 1px solid;
+}
+*/
