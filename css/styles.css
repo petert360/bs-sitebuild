@@ -211,6 +211,11 @@ section.contact ul.list-social li.google a {
   background-color: rgba(221, 75, 57, .9);
 }
 
+section.contact ul.list-social li.google a:hover {
+  background-color: rgba(221, 75, 57, 1);
+}
+
+
 footer {
   padding: 25px 0;
   text-align: center;
