@@ -54,7 +54,7 @@ hr {
 }
 
 .bg-light .navbar-brand {
-  color: #000;
+  color: #222;
 }
 
 .bg-light .navbar-brand:hover {
@@ -69,7 +69,8 @@ hr {
 }
 
 .navbar .navbar-nav .nav-item {
-  color: #000;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  color: #222;
 }
 
 .navbar .navbar-nav .nav-item:hover {
@@ -147,13 +148,11 @@ section.download .badges .badge-link img {
 }
 
 section.features {
-  padding: 4rem 0;
+  padding: 3.5rem 0;
 }
 
 section.features .feature-item {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  padding-left: 2rem;
+  padding: 2rem 1rem;
   text-align: center;
 }
 
@@ -163,6 +162,7 @@ section.features .feature-item h3 {
 
 section.features .feature-item p.icon {
   font-size: 4rem;
+  margin: 0;
   color: #B2315C;
 }
 
@@ -283,10 +283,6 @@ footer a:hover {
   transition: all .3s;
 }
 
-.modal .modal-title {
-  color: rgba(0, 0, 0, 0.5)
-}
-
-.modal .modal-body {
+.modal-title, .modal-body {
   color: rgba(0, 0, 0, 0.5)
 }
