@@ -1,46 +1,93 @@
-.fa-heart{
-  color: #dd4b39;
-}
 
-.row{
-border:1px solid black;
-justify-content: center;
-}
-
-
-.contact a {
-  text-align: center;
-  font-size: 40px;
-  line-height: 80px;
-  display: block;
-  width: 80px;
-  height: 80px;
-  color: white;
-  border-radius: 100%;
-  margin: 0 1rem;
-}
-
-
-a.twitterButton{
-  background-color: rgba(29, 161, 242, .9);
-}
-
-a.twitterButton:hover{
-  background-color: rgba(29, 161, 242, 1);
-}
-
-a.facebookButton{
-  background-color: rgba(59, 89, 152, .9);
-}
-
-a.facebookButton:hover{
-  background-color: rgba(59, 89, 152, 1);
-}
-
-a.googleButton{
-  background-color: rgba(221, 75, 57, .9);
-}
-
-a.googleButton:hover{
-  background-color: rgba(221, 75, 57, 1);
-}
+  html {
+    font-size: 16px;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-primary {
+    background: #fdcc52;
+    background: linear-gradient(#fdcc52, #fdc539);
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 200;
+    letter-spacing: 1px;
+  }
+  
+  p {
+    font-family: 'Mulish', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 200;
+    letter-spacing: 1px;
+  }
+  
+  hr {
+    max-width: 8rem;
+    margin: 2rem auto 0;
+    border-width: 1px;
+    border-color: rgba(34, 34, 34, 0.1);
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  .btn {
+    border-radius: 10rem;
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+    font-size: 0.7rem;
+    padding: 1rem 2rem;
+    letter-spacing: 2px;
+    color: #fff;
+    border: 1px solid;
+  }
+  
+  .btn:hover {
+    border: 1px solid #fdcc52;
+    background-color: #fdcc52;
+    transition: all .3s;
+  }
+  
+  section.cta {
+    position: relative;
+    padding: 15rem 0;
+    background-image: url("../img/bg-cta.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  section.cta .cta-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  section.cta .cta-content h2 {
+    font-size: 50px;
+    max-width: 450px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: white;
+  }
+  
+  section.cta .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  section.contact {
+    padding: 2rem 0;
+    justify-content: center;
+    background-color: #fdcc52;
+  }
+  
