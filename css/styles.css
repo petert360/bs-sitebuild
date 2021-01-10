@@ -16,6 +16,23 @@ body {
   box-sizing: border-box;
 }
 
+.bg-primary {
+  background: #fdcc52;
+  background: linear-gradient(#fdcc52, #fdc539);
+}
+
+h1, h2 {
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+p {
+  font-family: 'Mulish', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
 .navbar .navbar-brand {
   color: #fdcc52;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
@@ -53,9 +70,6 @@ header.mainHeader {
 }
 
 h1 {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 200;
-  letter-spacing: 1px;
   font-size: 2rem;
 }
 
@@ -75,6 +89,11 @@ h1 {
   border: 1px solid #fdcc52;
   background-color: #fdcc52;
   transition: all .3s;
+}
+
+.placeholder img {
+  padding: 2rem;
+  height: 40rem;
 }
 
 /*
@@ -100,3 +119,28 @@ h1 {
   right: 6%; 
 }
 */
+
+section.download {
+  position: relative;
+  padding: 4rem 0;
+}
+
+section.download h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+section.download p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+section.download .badges .badge-link {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+section.download .badges .badge-link img {
+  height: 5rem;
+  padding: .3rem;
+}
