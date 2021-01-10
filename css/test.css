@@ -1,37 +1,46 @@
-header.mainHeader {
-  background: url(../img/bg-pattern.png), linear-gradient(to left, #7b4397, #dc2430);
-  padding-top: 8rem;
+.fa-heart{
+  color: #dd4b39;
 }
 
-.mainHeader {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-  color: #fff;
+.row{
+border:1px solid black;
+justify-content: center;
 }
 
-.mydiv{
-  border: 10px solid black;
+
+.contact a {
+  text-align: center;
+  font-size: 40px;
+  line-height: 80px;
+  display: block;
+  width: 80px;
+  height: 80px;
+  color: white;
+  border-radius: 100%;
+  margin: 0 1rem;
 }
 
-/*
-.btn {
-  border-radius: 10rem;
-  font-family: 'Lato', Helvetica, Arial, sans-serif;
-  font-size: 0.7rem;
-  padding: 1rem 2rem;
-  letter-spacing: 2px;
+
+a.twitterButton{
+  background-color: rgba(29, 161, 242, .9);
 }
 
-.btn-outline {
-  color: #fff;
-  border: 1px solid;
+a.twitterButton:hover{
+  background-color: rgba(29, 161, 242, 1);
 }
-*/
 
-.device {
-  background-image: url("../img/phone.png");
-  position: absolute;
-  top: 0; bottom: 0; left: 0; right: 0;
-  width: 100%; height: 100%;
-  background-size: 100% 100%;
-  background-repeat: no-repeat; 
+a.facebookButton{
+  background-color: rgba(59, 89, 152, .9);
+}
+
+a.facebookButton:hover{
+  background-color: rgba(59, 89, 152, 1);
+}
+
+a.googleButton{
+  background-color: rgba(221, 75, 57, .9);
+}
+
+a.googleButton:hover{
+  background-color: rgba(221, 75, 57, 1);
 }
